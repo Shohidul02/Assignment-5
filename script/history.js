@@ -13,6 +13,10 @@ document.getElementById("card-1").addEventListener('click',
             p.innerText = `
             You have completed the task ${title1} at ${dateFormate} ${hours}:${minutes} ${amPm}
             `
+            p.style.background="WhiteSmoke";
+            p.style.borderRadius = "8px";
+            p.style.marginTop = "5px";
+            p.style.paddingBottom = "20px";
             historyContainer.appendChild(p);
 
     }
@@ -33,7 +37,12 @@ document.getElementById("card-2").addEventListener('click',
             p.innerText = `
             You have completed the task ${title2} at ${dateFormate} ${hours}:${minutes} ${amPm}
             `
+            p.style.background="WhiteSmoke";
+            p.style.borderRadius = "8px";
+            p.style.marginTop = "5px";
+            p.style.paddingBottom = "20px";
             historyContainer.appendChild(p);
+            
 
     }
 )
@@ -53,6 +62,10 @@ document.getElementById("card-3").addEventListener('click',
             p.innerText = `
             You have completed the task ${title3} at ${dateFormate} ${hours}:${minutes} ${amPm}
             `
+            p.style.background="WhiteSmoke";
+            p.style.borderRadius = "8px";
+            p.style.marginTop = "5px";
+            p.style.paddingBottom = "20px";
             historyContainer.appendChild(p);
 
     }
@@ -73,6 +86,10 @@ document.getElementById("card-4").addEventListener('click',
             p.innerText = `
             You have completed the task ${title4} at ${dateFormate} ${hours}:${minutes} ${amPm}
             `
+            p.style.background="WhiteSmoke";
+            p.style.borderRadius = "8px";
+            p.style.marginTop = "5px";
+            p.style.paddingBottom = "20px";
             historyContainer.appendChild(p);
 
     }
@@ -93,6 +110,10 @@ document.getElementById("card-5").addEventListener('click',
             p.innerText = `
             You have completed the task ${title5} at ${dateFormate} ${hours}:${minutes} ${amPm}
             `
+            p.style.background="WhiteSmoke";
+            p.style.borderRadius = "8px";
+            p.style.marginTop = "5px";
+            p.style.paddingBottom = "20px";
             historyContainer.appendChild(p);
 
     }
@@ -113,6 +134,10 @@ document.getElementById("card-6").addEventListener('click',
             p.innerText = `
             You have completed the task ${title6} at ${dateFormate} ${hours}:${minutes} ${amPm}
             `
+            p.style.background="WhiteSmoke";
+            p.style.borderRadius = "8px";
+            p.style.marginTop = "5px";
+            p.style.paddingBottom = "20px";
             historyContainer.appendChild(p);
 
     }
