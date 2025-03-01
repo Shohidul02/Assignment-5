@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevBoard</title>
+    <!-- daisyui -->
+     <link href="https://cdn.jsdelivr.net/npm/daisyui@3.9.4/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+<body class="bg-slate-100 p-10  mx-auto">
+    
+    <!-- Header -->
+        <header>
+            <div class="bg-white p-4 rounded-lg shadow flex justify-between items-center">
+                <div class="flex items-center space-x-2">
+                    <img src="assets/logo.png" alt="Logo" class="w-8 h-8"> 
+                    <h1 class="text-lg font-bold text-gray-800">Dev<span class="text-black">Board</span></h1>
+                </div>
+                <div class="flex items-center space-x-4">
+                    <div class="relative bg-gray-100 px-4 py-2 rounded-full flex items-center space-x-2">
+                        <img src="assets/checkbox.png" alt="" class="w-5">
+                        <span class="text-gray-700 font-medium">23</span>
+                    </div>
+                    <button class="bg-gray-100 p-2 rounded-full shadow-md">
+                        <img src="assets/theme-btn.png" alt="Theme Icon" class="w-8 h-8 rounded-full">
+                    </button>
+                </div>
+            </div>
+        </header>
+
+    
+    <!-- Main Content -->
+    <section class="flex mt-6 gap-6 rounded-t-sm">
+        <!-- Left Content -->
+        <div class="flex-1">
+            <div class="flex justify-between gap-4 bg-white p-4 shadow-md border-b-2 border-dashed rounded-t-lg ">
+                <!-- Task Assigned -->
+                <div class="flex items-center gap-4 p-4 bg-slate-100 rounded-lg w-64">
+                    <img src="assets/checkbox.png" alt="">
+                    <div>
+                        <p class="text-gray-600">Task Assigned</p>
+                        <p class="text-lg font-bold">6</p>
+                    </div>
+                </div>
+                
+                <!-- Center Section -->
+                <div id="discover-some-thing" class="flex items-center justify-center p-4 bg-gradient-to-r from-blue-500 to-indigo-400 text-white rounded-lg">
+                    <img src="assets/board.png" alt="Calendar Icon">
+                    <p class="text-lg font-semibold">Discover Something New Today!</p>
+                </div>
+                
+                <!-- Date Section -->
+                <div class="flex items-center gap-2 p-4 bg-slate-100 rounded-lg w-64">
+                    <img src="assets/calender.png" alt="">
+                    <p class="text-gray-600">Tue Feb 25 2025</p>
+                </div>
+            </div>
+            
+            <!-- Task Cards -->
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6 p-6 bg-white shadow-md">
+                <!-- Card 1 -->
+                <div class="p-4 bg-slate-100 rounded-lg shadow">
+                    <span class="px-3 py-1 bg-white text-gray-700 rounded-full text-sm">Shop Ease</span>
+                    <h2 class="font-bold text-lg mt-2">Fix Mobile Button Issue</h2>
+                    <p class="text-gray-600 text-sm mt-1 bg-white p-2">A card component has a figure, a body part, and inside body there are title and actions parts
+                        Deadlines</p>
+                    <div class="flex justify-between">
+                        <p class="text-gray-500 text-sm mt-2">Deadline <br> <strong>21 March 2025</strong></p>
+                    <button class="mt-3 bg-blue-800 text-white px-4 py-2 rounded-lg text-sm">Completed</button>
+                    </div>
+                </div>
+                <!-- Card 2 -->
+                <div class="p-4 bg-slate-100 rounded-lg shadow">
+                    <span class="px-3 py-1 bg-white text-gray-700 rounded-full text-sm">Shop Ease</span>
+                    <h2 class="font-bold text-lg mt-2">Fix Mobile Button Issue</h2>
+                    <p class="text-gray-600 text-sm mt-1 bg-white p-2">A card component has a figure, a body part, and inside body there are title and actions parts
+                        Deadlines</p>
+                    <div class="flex justify-between">
+                        <p class="text-gray-500 text-sm mt-2">Deadline <br> <strong>21 March 2025</strong></p>
+                    <button class="mt-3 bg-blue-800 text-white px-4 py-2 rounded-lg text-sm">Completed</button>
+                    </div>
+                </div>
+                <!-- Card 3 -->
+                <div class="p-4 bg-slate-100 rounded-lg shadow">
+                    <span class="px-3 py-1 bg-white text-gray-700 rounded-full text-sm">Shop Ease</span>
+                    <h2 class="font-bold text-lg mt-2">Fix Mobile Button Issue</h2>
+                    <p class="text-gray-600 text-sm mt-1 bg-white p-2">A card component has a figure, a body part, and inside body there are title and actions parts
+                        Deadlines</p>
+                    <div class="flex justify-between">
+                        <p class="text-gray-500 text-sm mt-2">Deadline <br> <strong>21 March 2025</strong></p>
+                    <button class="mt-3 bg-blue-800 text-white px-4 py-2 rounded-lg text-sm">Completed</button>
+                    </div>
+                </div>
+                 <!-- Card 4 -->
+                 <div class="p-4 bg-slate-100 rounded-lg shadow">
+                    <span class="px-3 py-1 bg-white text-gray-700 rounded-full text-sm">Shop Ease</span>
+                    <h2 class="font-bold text-lg mt-2">Fix Mobile Button Issue</h2>
+                    <p class="text-gray-600 text-sm mt-1 bg-white p-2">A card component has a figure, a body part, and inside body there are title and actions parts
+                        Deadlines</p>
+                    <div class="flex justify-between">
+                        <p class="text-gray-500 text-sm mt-2">Deadline <br> <strong>21 March 2025</strong></p>
+                    <button class="mt-3 bg-blue-800 text-white px-4 py-2 rounded-lg text-sm">Completed</button>
+                    </div>
+                </div>
+                <!-- Card 5 -->
+                <div class="p-4 bg-slate-100 rounded-lg shadow">
+                    <span class="px-3 py-1 bg-white text-gray-700 rounded-full text-sm">Shop Ease</span>
+                    <h2 class="font-bold text-lg mt-2">Fix Mobile Button Issue</h2>
+                    <p class="text-gray-600 text-sm mt-1 bg-white p-2">A card component has a figure, a body part, and inside body there are title and actions parts
+                        Deadlines</p>
+                    <div class="flex justify-between">
+                        <p class="text-gray-500 text-sm mt-2">Deadline <br> <strong>21 March 2025</strong></p>
+                    <button class="mt-3 bg-blue-800 text-white px-4 py-2 rounded-lg text-sm">Completed</button>
+                    </div>
+                </div>
+                <!-- Card 6 -->
+                <div class="p-4 bg-slate-100 rounded-lg shadow">
+                    <span class="px-3 py-1 bg-white text-gray-700 rounded-full text-sm">Shop Ease</span>
+                    <h2 class="font-bold text-lg mt-2">Fix Mobile Button Issue</h2>
+                    <p class="text-gray-600 text-sm mt-1 bg-white p-2">A card component has a figure, a body part, and inside body there are title and actions parts
+                        Deadlines</p>
+                    <div class="flex justify-between">
+                        <p class="text-gray-500 text-sm mt-2">Deadline <br> <strong>21 March 2025</strong></p>
+                    <button class="mt-3 bg-blue-800 text-white px-4 py-2 rounded-lg text-sm">Completed</button>
+                    </div>
+                </div>
+                <!--  -->
+            </div>
+        </div>
+
+        <!-- Right Sidebar: Activity Log -->
+        <div class="flex flex-col items-center  gap-4 w-72 pt-4 bg-white shadow-lg rounded-lg">
+
+            <div class="flex items-center justify-between gap-2 mb-4">
+                <div class="text-lg font-semibold flex items-center gap-2">
+                    <img src="assets/activity.png" alt="">
+                <h2>activity Log</h2>
+                </div>
+                
+            </div>
+            <button class="w-32 bg-blue-800 text-white py-2 rounded-lg hover:bg-purple-700 transition">Clear History</button>
+            <hr class="border-t-2 border-black border-dashed">
+            <div class="mt-4 text-center text-gray-400 text-sm">No activity recorded</div>
+        </div>
+    </section>
+    <!-- script src -->
+    <script src="script/script.js"></script>
+</body>
+</html>
