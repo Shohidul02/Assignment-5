@@ -4,13 +4,14 @@ document.getElementById("card-1").addEventListener('click',
         const historyContainer=document.getElementById("history-container");
         let title1 = document.getElementById("title-1").innerText;
         let now = new Date();
+        let dateFormate = today.toDateString();
         let hours = now.getHours();
         let minutes = now.getMinutes();
         let amPm = hours >= 12 ? "PM" : "AM";
         hours = hours % 12 || 12; // Convert to 12-hour format
         const p=document.createElement("p");
             p.innerText = `
-            You have completed the task ${title1} at ${now} ${hours}:${minutes} ${amPm}
+            You have completed the task ${title1} at ${dateFormate} ${hours}:${minutes} ${amPm}
             `
             historyContainer.appendChild(p);
 

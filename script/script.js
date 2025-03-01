@@ -1,3 +1,9 @@
+// current date
+        let today = new Date ();
+        let dateFormate = today.toDateString();
+        document.getElementById("current-date").textContent = dateFormate;
+
+// discover something page
 document.getElementById("discover-some-thing").addEventListener('click',
     function(event) {
         window.location.href = "./qus.html";
