@@ -23,7 +23,8 @@
     </header>
     <!-- main section -->
     <main>
-        <section class="mt-10 flex flex-col gap-6">
+        <h2 class="font-bold text-center mt-4 text-3xl">Blogs</h2>
+        <section class="mt-6 flex flex-col gap-6">
             <div class="bg-white p-3 rounded-lg">
                 <p class="pb-3 font-bold">Question-1: What are the different ways to select an element in the DOM?</p>
                 <hr class="border-dashed bg-gray-300">
@@ -60,6 +61,22 @@
                 <p class="pb-3 font-bold">Question-4: What is event bubbling in the DOM?</p>
                 <hr class="border-dashed bg-gray-300">
                 <p class="mt-4 ">ইভেন্ট বাবলিং হল একটি প্রক্রিয়া যেখানে ইভেন্টটি টার্গেট এলিমেন্ট থেকে শুরু হয়ে প্যারেন্ট এলিমেন্টগুলোর মাধ্যমে উপরে উঠে চলে, এবং প্রতিটি প্যারেন্টে একই ইভেন্ট ট্রিগার হয়।
+                </p>
+            </div>
+            <div class="bg-white p-3 rounded-lg">
+                <p class="pb-3 font-bold">Question-5: How do you create, add, and remove elements using JavaScript?</p>
+                <hr class="border-dashed bg-gray-300">
+                <p class="mt-4 ">
+                    Create an element: <br>
+
+                    let newElement = document.createElement("div");<br>
+                    newElement.textContent = "Hello!";<br>
+                    <br>
+                    Add (append) the element to the page: <br>
+                    document.body.appendChild(newElement);<br>
+                    <br>
+                    Remove an element: <br>
+                    newElement.remove(); <br>
                 </p>
             </div>
         </section>
