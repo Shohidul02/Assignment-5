@@ -5,7 +5,10 @@ document.getElementById("discover-some-thing").addEventListener('click',
 // card 1
 document.getElementById("card-1").addEventListener('click', function(event) {
     event.preventDefault();
+
         this.style.backgroundColor = "gray";
+        alert("Board Update Successfully");
+        
         let textAssign = document.getElementById("task-assign").innerText;
         let convertedTextAssign = parseInt(textAssign);
 
@@ -23,6 +26,7 @@ document.getElementById("card-1").addEventListener('click', function(event) {
     document.getElementById("card-2").addEventListener('click', function(event) {
         event.preventDefault();
             this.style.backgroundColor = "gray";
+            alert("Board Update Successfully");
             let textAssign = document.getElementById("task-assign").innerText;
             let convertedTextAssign = parseInt(textAssign);
     
@@ -40,6 +44,7 @@ document.getElementById("card-1").addEventListener('click', function(event) {
 document.getElementById("card-3").addEventListener('click', function(event) {
     event.preventDefault();
         this.style.backgroundColor = "gray";
+        alert("Board Update Successfully");
         let textAssign = document.getElementById("task-assign").innerText;
         let convertedTextAssign = parseInt(textAssign);
 
@@ -56,6 +61,7 @@ document.getElementById("card-3").addEventListener('click', function(event) {
 document.getElementById("card-4").addEventListener('click', function(event) {
         event.preventDefault();
             this.style.backgroundColor = "gray";
+            alert("Board Update Successfully");
             let textAssign = document.getElementById("task-assign").innerText;
             let convertedTextAssign = parseInt(textAssign);
     
@@ -73,6 +79,7 @@ document.getElementById("card-4").addEventListener('click', function(event) {
 document.getElementById("card-5").addEventListener('click', function(event) {
     event.preventDefault();
         this.style.backgroundColor = "gray";
+        alert("Board Update Successfully");
         let textAssign = document.getElementById("task-assign").innerText;
         let convertedTextAssign = parseInt(textAssign);
 
@@ -90,6 +97,7 @@ document.getElementById("card-5").addEventListener('click', function(event) {
 document.getElementById("card-6").addEventListener('click', function(event) {
     event.preventDefault();
         this.style.backgroundColor = "gray";
+        alert("Board Update Successfully");
         let textAssign = document.getElementById("task-assign").innerText;
         let convertedTextAssign = parseInt(textAssign);
 
